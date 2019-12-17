@@ -1,23 +1,134 @@
 body{
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1{
-  margin: 0;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+hr{
+  border: 0;
+  border-top: 5px dotted #F0F0F0;
+  width: 3%;
+  margin: 70px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+.pro-text{
+  text-decoration: underline;
 }
 
 .top-container{
+  padding-top: 70px;
   background-color: #E4F9F5;
+  position: relative;
+}
+
+.profile-description{
+  width: 30%;
+  margin: auto;
 }
 
 .middle-container{
-  height: 200px;
-  width: 200px;
-  background-color: red;
 }
 
 .bottom-container{
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+  background-color: #66BFBF;
+  padding: 30px;
+  margin: 30px auto 0px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 15%;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 15%;
+}
+
+.profile-img{
+  height: 300px;
+  border-radius: 3%;
+  margin: 30px auto 0px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.cpp-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-button{
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #31c2ac 5%, #11999e 100%);
+	background-color:#31c2ac;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  width: 10%;
+  margin: 50px auto;
+}
+.contact-button:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #31c2ac 100%);
+	background-color:#11999e;
+}
+.contact-button:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link{
+  text-decoration: none;
+  font-weight: 500;
+  margin: auto 15px;
+}
+
+.footer-text{
+  color: #EAF6F6;
 }
