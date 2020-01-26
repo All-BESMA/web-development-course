@@ -4,9 +4,10 @@
 <p><%= homeText%></p>
 
 <% postsArray.forEach(function(post){ %>
-  <% let postPath = "/posts/" + post.title; %>
-  <h1><a href=<%= postPath %>><%= post.title %></a></h1>
-  <p><%= post.content %></p>
+  <% let postPath = "/posts/" + post.title.replace(" ", "-"); %>
+  <h1><%= post.title %></h1>
+  <p><%= post.content.substr(0, 1000) + "..." %>
+  <a href=<%= postPath %>>Read More</a></p>
 <% }); %>
 
 <%-include("partials/footer")%>
